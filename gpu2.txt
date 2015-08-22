@@ -1,0 +1,37 @@
+Using gpu device 0: GeForce GTX 980
+/afs/inf.ed.ac.uk/user/s12/s1270921/virtualenvs/py27/lib/python2.7/site-packages/theano/scan_module/scan_perform_ext.py:133: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility
+  from scan_perform.scan_perform import *
+load vocab done
+['ignore_case', 'UNK', 'freq_cut', 'idx2word', 'add_eot', 'word2idx']
+0
+{   'algo': 'SGD',
+    'bs': 20,
+    'dataset_path': 'data/data',
+    'grad_clip': 1.0,
+    'init_hid_val': 0.01,
+    'init_range': 0.2,
+    'lr': 0.1,
+    'max_epoch': 5,
+    'n_hid': 100,
+    'n_in': 100,
+    'n_vocab': 10138,
+    'seed': 123,
+    'vocab_path': 'data/vocab.pkl.gz'}
+[SimpleRNNLM] alloc and init params done!
+[SimpleRNNLM] L2 norm not used
+[SimpleRNNLM] ... get grads ...
+[SimpleRNNLM] ... got grads ...
+[SimpleRNNLM] algo =  SGD
+[SimpleRNNLM] ...build training function...
+[SimpleRNNLM] ...build training function done...
+[SimpleRNNLM] build train_fn and valid_fn done!
+epoch 1
+valid PPL 2045.068705 ENTROPY 7.623187
+epoch 2
+valid PPL 1304.619783 ENTROPY 7.173667
+epoch 3
+valid PPL 1042.999509 ENTROPY 6.949856
+epoch 4
+valid PPL 924.270939 ENTROPY 6.829005
+epoch 5
+valid PPL 860.727450 ENTROPY 6.757778
