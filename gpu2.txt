@@ -11,7 +11,7 @@ load vocab done
     'init_hid_val': 0.01,
     'init_range': 0.2,
     'lr': 0.1,
-    'max_epoch': 5,
+    'max_epoch': 20,
     'n_hid': 100,
     'n_in': 100,
     'n_vocab': 10138,
@@ -26,12 +26,42 @@ load vocab done
 [SimpleRNNLM] ...build training function done...
 [SimpleRNNLM] build train_fn and valid_fn done!
 epoch 1
-valid PPL 2045.068705 ENTROPY 7.623187
+valid PPL 2045.068131 ENTROPY 7.623186
 epoch 2
-valid PPL 1304.619783 ENTROPY 7.173667
+valid PPL 1304.619539 ENTROPY 7.173667
 epoch 3
-valid PPL 1042.999509 ENTROPY 6.949856
+valid PPL 1042.999411 ENTROPY 6.949856
 epoch 4
-valid PPL 924.270939 ENTROPY 6.829005
+valid PPL 924.271112 ENTROPY 6.829005
 epoch 5
-valid PPL 860.727450 ENTROPY 6.757778
+valid PPL 860.727289 ENTROPY 6.757778
+epoch 6
+valid PPL 821.615272 ENTROPY 6.711272
+epoch 7
+valid PPL 790.663828 ENTROPY 6.672873
+epoch 8
+valid PPL 767.062374 ENTROPY 6.642568
+epoch 9
+valid PPL 747.551148 ENTROPY 6.616803
+epoch 10
+valid PPL 730.901137 ENTROPY 6.594278
+epoch 11
+valid PPL 716.404418 ENTROPY 6.574245
+epoch 12
+valid PPL 703.590608 ENTROPY 6.556197
+epoch 13
+valid PPL 692.120998 ENTROPY 6.539761
+epoch 14
+valid PPL 681.737408 ENTROPY 6.524645
+epoch 15
+valid PPL 672.235709 ENTROPY 6.510609
+epoch 16
+valid PPL 663.446961 ENTROPY 6.497449
+epoch 17
+valid PPL 655.230009 ENTROPY 6.484986
+epoch 18
+valid PPL 647.469623 ENTROPY 6.473072
+epoch 19
+valid PPL 640.080889 ENTROPY 6.461595
+epoch 20
+valid PPL 636.628657 ENTROPY 6.456187

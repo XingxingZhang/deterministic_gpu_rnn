@@ -17,7 +17,7 @@ def get_hyper_params():
     
     state['lr'] = 0.1
     state['bs'] = 20
-    state['max_epoch'] = 5
+    state['max_epoch'] = 20
     
     state['dataset_path'] = 'data/data'
     state['vocab_path'] = 'data/vocab.pkl.gz'
